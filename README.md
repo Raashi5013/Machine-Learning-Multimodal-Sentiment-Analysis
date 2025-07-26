@@ -1,1 +1,6 @@
-# Machine-Learning-Multimodal-Sentiment-Analysis
+Machine-Learning-Multimodal-Sentiment-Analysis
+This project focuses on building a multimodal sentiment analysis model that leverages both visual (video) and textual (subtitle) data to classify emotions expressed in dialogue clips from the TV show Friends. Each input consists of video snippets paired with corresponding transcripts, and the goal is to predict the sentiment conveyed in each spoken sentence, as well as the overall emotional tone of the clip.
+
+The model integrates information from facial expressions, voice tone, and linguistic content to detect nuanced sentiments such as happiness, anger, sadness, and neutrality. To achieve this, both early and late fusion techniques were explored—combining features from video frames and text embeddings into unified representations before classification.
+
+Key steps included video frame extraction, face detection, subtitle alignment, feature engineering for temporal signals, and building deep learning models capable of learning from the combined modality data. This approach allows the system to capture subtle emotional cues that might be missed when analyzing text or video alone, demonstrating the power of multimodal learning in real-world sentiment interpretation tasks.
